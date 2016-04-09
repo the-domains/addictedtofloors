@@ -1,28 +1,40 @@
-name: addictedtofloors
 favicon: null
-layout_spectrum: 0.8787661043461412
-typography_spectrum: 0.9392729471437633
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: addictedtofloors
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
-  brandStrength: 0.28020447841845453
-  lightness: 0.2129061734303832
-  saturation: 0.7701723368372768
-  rhythmicContrast: 0.26187814702279866
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.7701723368372768
+  brandStrength: 1
+  lightness: 0.2129061734303832
+  brandColors:
+    - '#FFFFFF'
+    - '#125688'
+    - '#25272A'
+    - '#A5A7AA'
+    - '#FA804B'
+  rhythmicContrast: 0.2618781470227987
+typography_spectrum: 0.9392729471437633
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+layout_spectrum: 0.7795699
