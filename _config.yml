@@ -1,5 +1,7 @@
-favicon: null
-name: addictedtofloors
+analytics:
+  twitter: null
+  google: null
+  facebook: null
 opengraph:
   image: null
   type: null
@@ -29,12 +31,10 @@ color:
     - '#FA804B'
   rhythmicContrast: 0.2618781470227987
 typography_spectrum: 0.9392729471437633
+layout_spectrum: 0.7795699
 cta:
   bucket: null
   version: null
   domain: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
-layout_spectrum: 0.7795699
+favicon: null
+name: addictedtofloors
